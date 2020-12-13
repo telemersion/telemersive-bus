@@ -4,9 +4,11 @@
  * See LICENSE for more information
  */
 
-var BusClient = require('./lib/BusClient')
-var BusManager = require('./lib/BusManager')
+const BusClient = require('./lib/BusClient');
+const BusManager = require('./lib/BusManager');
 
 // Expose Client and Server
-module.exports = BusClient
-module.exports = BusManager
+module.exports = {
+    BusClient: BusClient,
+    BusManager: BusManager
+}

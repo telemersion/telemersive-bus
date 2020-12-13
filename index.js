@@ -5,8 +5,8 @@
  */
 
 const tBusClient = require('./lib/TBusClient')
-const tBusServer = require('./lib/TBusServer')
+const tBusManager = require('./lib/TBusManager')
 
 // Expose Client and Server
 module.exports.Client = tBusClient
-module.exports.Server = tBusServer
+module.exports.Server = tBusManager

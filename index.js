@@ -8,5 +8,5 @@ var BusClient = require('./lib/BusClient')
 var BusManager = require('./lib/BusManager')
 
 // Expose Client and Server
-module.exports.BusClient = BusClient
-module.exports.BusManager = BusManager
+module.exports = BusClient
+module.exports = BusManager

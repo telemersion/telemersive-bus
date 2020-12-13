@@ -4,9 +4,9 @@
  * See LICENSE for more information
  */
 
-const TBusClient = require('./lib/TBusClient')
-const TBusManager = require('./lib/TBusManager')
+var BusClient = require('./lib/BusClient')
+var BusManager = require('./lib/BusManager')
 
 // Expose Client and Server
-module.exports.Client = TBusClient
-module.exports.Server = TBusManager
+module.exports.BusClient = BusClient
+module.exports.BusManager = BusManager

@@ -1,6 +1,6 @@
 {
   "name": "telemersive-bus",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "MQTT based data protocol to manage unlimited peers, connected by rooms, where all peers joined to a room can exchange private data. It provides a simple chat mechanism, latency pinging, publish-subscribe mechanism (based on mqtt) and a OSC-like data stream.  ",
   "main": "index.js",
   "directories": {

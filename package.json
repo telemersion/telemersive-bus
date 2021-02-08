@@ -14,7 +14,8 @@
     "protobufjs": "^6.10.2",
     "public-ip": "^4.0.2",
     "sha1": "^1.1.1",
-    "short-uuid": "^4.1.0"
+    "short-uuid": "^4.1.0",
+    "superagent": "^6.1.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

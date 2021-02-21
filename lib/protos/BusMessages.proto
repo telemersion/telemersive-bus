@@ -38,7 +38,8 @@ message RoomAccess {
   int32 room_id = 5;
   string room_name = 6;
   string reason = 7;
-  bytes user_data = 8;
+  string room_uuid = 8;
+  bytes user_data = 9;
 }
 
 message ChatMessage {

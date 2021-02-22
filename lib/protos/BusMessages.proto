@@ -9,7 +9,8 @@ message PeerCredentials {
   string room_pwd = 6;
   string local_ip_v4 = 7;
   string public_ip_v4 = 8;
-  bytes user_data = 9;
+  string client_id = 9;
+  bytes user_data = 10;
 }
 
 message PeerInfo {

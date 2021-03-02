@@ -10,7 +10,8 @@ message PeerCredentials {
   string local_ip_v4 = 7;
   string public_ip_v4 = 8;
   string client_id = 9;
-  bytes user_data = 10;
+  string app_version = 10;
+  bytes user_data = 11;
 }
 
 message PeerInfo {
@@ -28,7 +29,8 @@ message RoomInfo {
   int32 room_id = 2;
   string room_name = 3;
   string room_pwd = 4;
-  bytes user_data = 5;
+  string app_version = 5;
+  bytes user_data = 6;
 }
 
 message RoomAccess {
@@ -40,7 +42,8 @@ message RoomAccess {
   string room_name = 6;
   string reason = 7;
   string room_uuid = 8;
-  bytes user_data = 9;
+  string app_version = 9;
+  bytes user_data = 10;
 }
 
 message ChatMessage {
